@@ -38,6 +38,7 @@ public class J8_04_Custom_Compare implements Comparable<J8_04_Custom_Compare> {
 }// class Employee
 
 class compcomp {
+
 	public static void main(String[] args) {
 		J8_04_Custom_Compare employee = new J8_04_Custom_Compare(1, "Ashutosh");
 		J8_04_Custom_Compare employee2 = new J8_04_Custom_Compare(2, "ccc");
