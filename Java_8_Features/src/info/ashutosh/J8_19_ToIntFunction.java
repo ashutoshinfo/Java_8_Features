@@ -7,6 +7,5 @@ public class J8_19_ToIntFunction {
 		/* take 'Integer' as a argument and return 'int' */
 		ToIntFunction<Integer> toIntFunction = (i) -> i * i;
 		System.out.println(toIntFunction.applyAsInt(10));
-
 	}
 }
